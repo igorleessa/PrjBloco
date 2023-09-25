@@ -27,8 +27,9 @@ namespace PrjBlocoIgorLessa.Controllers
             using (StreamReader reader = new StreamReader(stream))
             {
                 return reader.ReadToEnd();
-            }
+            }  
         }
+
 
         [ProducesResponseType(typeof(string), (int)HttpStatusCode.OK)]
         [HttpPost(Name = "GetChuckNorrisPost")]
