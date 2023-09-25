@@ -12,5 +12,14 @@ namespace PrjBlocoIgorLessa.Test
             var result = controller.GetChuckNorrisRandom();
             Assert.True(result.Count() > 0); 
         }
+
+        [Fact]
+        public void PostSuccess()
+        {
+            var controller = new ChuckNorrisController();
+
+            var result = controller.GetChuckNorrisPost("money");
+            Assert.True(result.Count() > 0);
+        }
     }
 }
