@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>be3059a3-2fb8-4128-b8d6-ef1739a04c04</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <ApplicationInsightsResourceId>/subscriptions/b5ccd3b0-9ef4-428b-b5b3-4ceb4953e920/resourceGroups/infnet-pos/providers/microsoft.insights/components/PrjBlocoIgorLessaAI</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
