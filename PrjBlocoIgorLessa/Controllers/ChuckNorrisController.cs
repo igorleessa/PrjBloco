@@ -12,7 +12,7 @@ namespace PrjBlocoIgorLessa.Controllers
         {
 
         }
-
+         
         [ProducesResponseType(typeof(string), (int)HttpStatusCode.OK)]
         [HttpGet(Name = "GetChuckNorrisRandom")]
         public string GetChuckNorrisRandom()
