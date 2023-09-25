@@ -10,7 +10,7 @@ namespace PrjBlocoIgorLessa.Test
             var controller = new ChuckNorrisController();
 
             var result = controller.GetChuckNorrisRandom();
-            Assert.True(result.Count() > 0); 
+            Assert.True(result.Any()); 
         }
 
         [Fact]
@@ -19,7 +19,7 @@ namespace PrjBlocoIgorLessa.Test
             var controller = new ChuckNorrisController();
 
             var result = controller.GetChuckNorrisPost("money");
-            Assert.True(result.Count() > 0);
+            Assert.True(result.Any());
         }
     }
 }
